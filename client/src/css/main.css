@@ -32,12 +32,38 @@ Version: 		1.0.0
 /*------------------------------------------------------------------
 1. General styles and resets
 -------------------------------------------------------------------*/
-@import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/* @import url('https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:100,100i,300,300i,400,400i,600,600i,700,700i');
 @import 'https://fonts.googleapis.com/css?family=Just+Another+Hand';
-@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700'); */
+
+@font-face {
+	font-family: 'Poppins Thin';
+	src: url('./fonts/The-Jamsil-OTF-1-Thin.woff');
+}
+@font-face {
+	font-family: 'Poppins Light';
+	src: url('./fonts/The-Jamsil-OTF-2-Light.woff');
+}
+@font-face {
+	font-family: 'Poppins Regular';
+	src: url('./fonts/The-Jamsil-OTF-3-Regular.woff');
+}
+@font-face {
+	font-family: 'Poppins Medium';
+	src: url('./fonts/The-Jamsil-OTF-4-Medium.woff');
+}
+@font-face {
+	font-family: 'Poppins Bold';
+	src: url('./fonts/The-Jamsil-OTF-5-Bold.woff');
+}
+@font-face {
+	font-family: 'Poppins ExtraBold';
+	src: url('./fonts/The-Jamsil-OTF-6-ExtraBold.woff');
+}
 
 .content-links,.filter-nav,.social-network,.content-list,.pricing-box-v1 .plan-features ul,.icon-lists ul,.nav-wrap ul.side-nav,.nav-wrap .header-links ul,.white-overlay .nav-wrap ul.side-nav,.white-overlay .nav-wrap .header-links ul,.tag-block ul,.blog-lists .blog-list-items,.instagram-widget ul,.footer-nav ul {
+	font-family: 'Poppins Thin';
 	list-style: none;
 	margin: 0;
 	padding: 0;
@@ -858,7 +884,7 @@ a:hover,a:focus {
 
 body {
 	font-weight: 400;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Poppins Thin', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	letter-spacing: .0625rem;
 	color: #55565b;
 	font-size: .75rem;
@@ -4750,15 +4776,30 @@ em.state-invalid {
 -------------------------------------------------------------------*/
 
 /******* content block styles *******/
-
+.content-wrapper .content-block .container .block-heading h2 {
+	font-family: 'Poppins ExtraBold';
+}
+.content-block .bottom-space h2 {
+	font-family: 'Poppins ExtraBold';
+}
+.content-block .container .bottom-space h2 {
+	font-family: 'Poppins ExtraBold';
+}
 .content-block {
+	font-family: 'Poppins Thin';
 	padding-top: 3.75rem;
 	padding-bottom: 3.75rem;
+}
+.content-block .container h2 {
+	font-family: 'Poppins Thin';
+}
+.content-block .container h2 .extraBold {
+	font-family: 'Poppins ExtraBold';
 }
 
 .description {
 	font-size: .75rem;
-	line-height: 2.1;
+	line-height: 1.5;
 }
 
 .description p:last-child {
@@ -4766,6 +4807,7 @@ em.state-invalid {
 }
 
 .content-title {
+	font-family: 'Poppins Regular';
 	font-size: .875rem;
 	line-height: 1.2;
 	display: block;
@@ -4777,6 +4819,7 @@ em.state-invalid {
 }
 
 .content-title a {
+	font-family: 'Poppins Regular';
 	color: #55565b;
 }
 
@@ -4816,7 +4859,7 @@ em.state-invalid {
 }
 
 .content-links {
-	font-size: .75rem;
+	font-size: .8rem;
 	line-height: 2.25rem;
 }
 
@@ -5189,7 +5232,13 @@ pre {
 
 /******* block heading styles *******/
 
+.content-block .container .block-main-heading {
+	font-family: 'Poppins ExtraBold';
+	letter-spacing: 0rem;
+}
+
 .block-main-heading {
+	font-family: 'Poppins ExtraBold';
 	color: #55565b;
 }
 
@@ -5212,12 +5261,13 @@ pre {
 }
 
 .block-top-heading {
+	font-family: 'Poppins Thin';
 	color: #55565b;
 	text-transform: uppercase;
 	margin: 0 0 .625rem;
 	text-transform: uppercase;
 	font-weight: 300;
-	letter-spacing: .2143rem;
+	letter-spacing: 0rem;
 }
 
 .block-top-heading.text-white {
@@ -5325,6 +5375,8 @@ pre {
 }
 
 .ico-box .des {
+	font-family: 'Poppins Light';
+	line-height: 1.67;
 	color: #575757;
 }
 
@@ -5608,11 +5660,16 @@ pre {
 }
 
 .quotation-block {
-	background-image: url('../img/big-15.jpg');
+	/* background-image: url('../img/big-15.jpg'); */
+	background-image: url('../img/img-main.jpg');
+}
+.quotation-block2 {
+	/* background-image: url('../img/big-15.jpg'); */
+	background-image: url('../img/img-success.jpg');
 }
 
 .count-block {
-	background-image: url('../img/visual-small-11.jpg');
+	/* background-image: url('../img/visual-small-11.jpg'); */
 }
 
 .quotation-block-v3 {
@@ -6482,7 +6539,7 @@ pre {
 	border: .1429rem solid #f1f1f1;
 	font: 1.125rem/2rem 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	padding: 0 .9375rem;
-	background: none;
+	/* background: none; */
 	letter-spacing: .2429rem;
 	border-radius: 0;
 	color: #55565b;
@@ -6490,6 +6547,7 @@ pre {
 	height: 3.125rem;
 	-webkit-box-shadow: none;
 	box-shadow: none;
+	background-color: #fff;
 }
 
 .form-control:focus {
@@ -10248,7 +10306,8 @@ a.full-width-icon:hover .social-text {
 	margin-bottom: 2.5rem;
 }
 
-.bottom-s-space {
+.bottom-s-space h5 {
+	font-family: 'Poppins Regular';
 	margin-bottom: 1.25rem;
 }
 
@@ -10289,6 +10348,12 @@ a.full-width-icon:hover .social-text {
 }
 
 .bottom-space-small-only {
+	letter-spacing: 0rem;
+	margin-bottom: 1.875rem;
+}
+.bottom-space-small-only h4 {
+	font-family: 'Poppins Regular';
+	letter-spacing: 0rem;
 	margin-bottom: 1.875rem;
 }
 
@@ -11555,8 +11620,8 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.count-block .col-wrap {
-		padding-top: 4.375rem;
-		padding-bottom: 4.375rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 	}
 
 	.testimonial-container .text-wrap {
@@ -12061,8 +12126,8 @@ a.full-width-icon:hover .social-text {
 	}
 
 	.count-block .col-wrap {
-		padding-top: 5.625rem;
-		padding-bottom: 5.625rem;
+		padding-top: 0.5rem;
+		padding-bottom: 0.5rem;
 	}
 
 	.waituk_newsletter-form input[type='email'] {

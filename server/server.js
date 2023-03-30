@@ -22,7 +22,7 @@ app.get('/', (req, res) => {
 })
 
 app.get('/api/list', (req, res) => {
-	const sqlQuery = 'SELECT * FROM labtime';
+	const sqlQuery = 'SELECT * FROM testDB.test';
 	db.query(sqlQuery, (err, result) => {
 		res.send(result);
 		console.log(result);

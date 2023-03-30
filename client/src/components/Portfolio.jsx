@@ -5,23 +5,6 @@ export default function Portfolio() {
         <div class="bottom-space text-center text-uppercase">
           <h2>PORTFOLIO</h2>
         </div>
-        <ul class="filter-nav text-center button-group filter-button-group">
-          <li>
-            <button data-filter="*">ALL</button>
-          </li>
-          <li>
-            <button data-filter=".ui">UI/UX DESIGN</button>
-          </li>
-          <li>
-            <button data-filter=".programming">PROGRAMMING</button>
-          </li>
-          <li>
-            <button data-filter=".photography">PHOTOGRAPHY</button>
-          </li>
-          <li>
-            <button data-filter=".ecommerce">ECOMMERCE</button>
-          </li>
-        </ul>
         <div class="row grid">
           <div class="gallery-item col-lg-4 col-md-6 ui photography">
             <figure class="picture-item img-block shine-effect image-zoom port-v2">

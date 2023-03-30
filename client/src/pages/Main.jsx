@@ -12,7 +12,7 @@ export default function Main() {
           <Nav />
           <Routes>
             <Route path="/" element={<MainLayout />} />
-            <Route path="/portfolio" element={<PortfolioDetail />} />
+            <Route path="portfolio" element={<PortfolioDetail />} />
           </Routes>
         </div>
         <Footer />

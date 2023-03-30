@@ -1,9 +1,13 @@
+
 export default function Nav() {
   return (
     <header
       class="fixed-top main-header header-white transparent with-side-panel-ico"
       id="waituk-main-header"
     >
+      
+      <div>djhjfdhfj</div>
+      <div><img src="../img/auto-logo.png"></img></div>
       <div id="nav-section">
         <div class="bottom-header container-fluid mega-menus" id="mega-menus">
           <nav
@@ -20,7 +24,7 @@ export default function Nav() {
             </button>
             <a class="navbar-brand mr-auto m-sm-auto" href="#">
               {" "}
-              <img src="img/logo.svg" alt="roxine" />{" "}
+              <img src="img/img-automanix-logo-01.svg" alt="roxine" />{" "}
               <img src="img/logo-dark.svg" alt="" />{" "}
             </a>
             <div
@@ -32,7 +36,7 @@ export default function Nav() {
                   <a href="#"> Home </a>
                 </li>
                 <li data-animation="fadeIn">
-                  <a href="#"> About Us </a>
+                  <a href="#">About</a>
                 </li>
                 <li data-animation="fadeIn">
                   <a href="#"> Portfolio </a>

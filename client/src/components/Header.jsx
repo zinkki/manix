@@ -4,7 +4,7 @@ export default function Header() {
       <div class="content-wrapper">
         <section
           id="work-section"
-          class="content-block quotation-block black-overlay-6 parallax"
+          class="content-block quotation-block black-overlay-6"
           data-stellar-background-ratio="0.55"
         >
           <div class="container">
@@ -13,14 +13,14 @@ export default function Header() {
                 class="block-heading bottom-space text-left"
                 style={{ paddingTop: "6rem" }}
               >
-                <h6 class="block-top-heading text-white">
+                <h4 class="block-top-heading text-white">
                   전문성, 신뢰성, 차별성
-                </h6>
-                <h2 class="block-main-heading text-white">
+                </h4>
+                <h1 class="block-main-heading text-white">
                   자동차 & 모터스포츠
                   <br />
                   비즈니스 솔루션 전문 기업
-                </h2>
+                </h1>
               </div>
               <div class="description text-left">
                 <p class="text-left text-white">

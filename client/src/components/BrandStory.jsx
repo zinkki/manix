@@ -14,11 +14,11 @@ export default function BrandStory() {
             <div class="col-md-6">
               <div class="bottom-space-small-only">
                 <p>
-                  오토매닉스는 국내 최대 디지털 자산 거래소 두나무의 계열사로
-                  2021년, 국내 최대 E스포츠 레이싱 대회인 AMX E스포츠 챔피언십을
-                  개최하였습니다. 나아가 구성원들의 뛰어난 역량을 바탕으로 </p>
-									<h4>국내 자동차 산업의 게임체인저로서 새로운 바람을 불어넣는 젊고
-                  혁신적인 기업입니다.
+                  오토매닉스는 국내 최대 디지털 자산 거래소 두나무의 계열사로<br/>
+                  2021년, 국내 최대 E스포츠 레이싱 대회인 AMX E스포츠 챔피언십을 개최하였습니다.<br/>
+                  나아가 구성원들의 뛰어난 역량을 바탕으로</p>
+									<h4>국내 자동차 산업의 게임체인저로서 새로운 바람을<br/>
+                  불어넣는 젊고 혁신적인 기업입니다.
 									</h4>
                 <div class="btn-container top-m-space">
                   <a href="#" class="btn btn-black has-radius-small">

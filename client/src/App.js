@@ -8,29 +8,11 @@ import Admin from './pages/Admin';
 import Error from './pages/Error';
 import axios from "axios";
 
-
-// import "./css/main.css";
-// import "./vendors/font-awesome/css/font-awesome.css";
-// import './vendors/owl-carousel/dist/assets/owl.carousel.min.css';
-// import './vendors/owl-carousel/dist/assets/owl.theme.default.min.css';
-// import './vendors/animate/animate.css';
-// import './vendors/rateyo/jquery.rateyo.css';
-// import './vendors/bootstrap-datepicker/css/bootstrap-datepicker.css';
-// import './vendors/fancyBox/source/jquery.fancybox.css';
-// import './vendors/fancyBox/source/helpers/jquery.fancybox-thumbs.css';
-// import './css/bootstrap.css';
-// import './vendors/rev-slider/revolution/css/settings.css';
-// import './vendors/rev-slider/revolution/css/layers.css';
-// import './vendors/rev-slider/revolution/css/navigation.css';
-
 function App() {
   const [data, setData] = useState([
     {
       idx: 0,
-      user_name: "",
-      company_name: "",
-      company_dept: "",
-      labtime: "",
+      content :''
     },
   ]);
   useEffect(() => {

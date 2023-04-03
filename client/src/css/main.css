@@ -4054,8 +4054,15 @@ em.state-invalid {
 	max-width: 51.43rem;
 	font-size: 1.143rem;
 	color: #fff;
-	font-family: 'Poppins', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Poppins ExtraBold';
 	font-weight: 400;
+}
+
+.visual .visual-inner .centered .container .visual-text .visual-title {
+	font-family: 'Poppins ExtraBold';
+}
+.visual .visual-inner .centered .container .visual-text .visual-sub-title {
+	font-family: 'Poppins ExtraBold';
 }
 
 .visual-text-bigger {

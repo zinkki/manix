@@ -1,4 +1,10 @@
+import { useNavigate } from 'react-router-dom';
+
 export default function Nav() {
+  const navigate = useNavigate();
+  const goMain = () => {
+    navigate('/');
+  }
   return (
     <header
       class="fixed-top main-header header-white transparent with-side-panel-ico"
@@ -18,26 +24,15 @@ export default function Nav() {
             >
               <span class="navbar-toggler-icon"></span>
             </button>
-            <a class="navbar-brand mr-auto m-sm-auto" href="#">
+            <a class="navbar-brand mr-auto m-sm-auto" href='' onClick={goMain}>
               {" "}
               <img src="../img/auto-logo.png" alt="AutoManix" />{" "}
-              <img src="img/logo-dark.svg" alt="" />{" "}
+              <img src="../img/auto-logo2.png" alt="" />{" "}
             </a>
             <div
               class="collapse navbar-collapse flex-row-reverse"
               id="mega-menu"
             >
-              <ul class="nav navbar-nav">
-                <li data-animation="fadeIn">
-                  <a href="#"> Home </a>
-                </li>
-                <li data-animation="fadeIn">
-                  <a href="#">About</a>
-                </li>
-                <li data-animation="fadeIn">
-                  <a href="#"> Portfolio </a>
-                </li>
-              </ul>
             </div>
           </nav>
         </div>

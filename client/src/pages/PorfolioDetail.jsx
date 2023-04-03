@@ -1,7 +1,7 @@
 export default function PortfolioDetail() {
   return(
     <>
-    <h2>PortfolioDetail.jsx</h2>
+    <h2>fff</h2>
     </>
   )
 }

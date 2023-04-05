@@ -1,3 +1,4 @@
+/*eslint no-undef: "error"*/
 // eslint-disable-next-line
 import "./css/main.css";
 import { useState, useEffect } from "react";

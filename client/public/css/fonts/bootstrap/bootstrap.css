@@ -1,13 +1,40 @@
 @font-face {
-  font-family: 'Glyphicons Halflings';
-  src: url("../../fonts/bootstrap/glyphicons-halflings-regular.eot");
-  src: url("../../fonts/bootstrap/glyphicons-halflings-regular.eot?#iefix") format("embedded-opentype"), url("../../fonts/bootstrap/glyphicons-halflings-regular.woff2") format("woff2"), url("../../fonts/bootstrap/glyphicons-halflings-regular.woff") format("woff"), url("../../fonts/bootstrap/glyphicons-halflings-regular.ttf") format("truetype"), url("../../fonts/bootstrap/glyphicons-halflings-regular.svg#glyphicons_halflingsregular") format("svg"); }
+	font-family: 'Poppins Thin';
+  src: url('../../fonts/The-Jamsil-OTF-1-Thin.woff');
+}
+@font-face {
+	font-family: 'Poppins Light';
+	src: url('../../fonts/The-Jamsil-OTF-2-Light.woff');
+}
+@font-face {
+	font-family: 'Poppins Regular';
+	src: url('../../fonts/The-Jamsil-OTF-3-Regular.woff');
+}
+@font-face {
+	font-family: 'Poppins Medium';
+	src: url('../../fonts/The-Jamsil-OTF-4-Medium.woff');
+}
+@font-face {
+	font-family: 'Poppins Bold';
+	src: url('../../fonts/The-Jamsil-OTF-5-Bold.woff');
+}
+@font-face {
+	font-family: 'Poppins ExtraBold';
+	src: url('../../fonts/The-Jamsil-OTF-6-ExtraBold.woff');
+}
 
-.glyphicon {
+body {
+  font-family: 'Poppins ExtraBold';
+}
+body #id {
+  font-family: 'Poppins ExtraBold';
+}
+
+/* .glyphicon {
   position: relative;
   top: 1px;
   display: inline-block;
-  font-family: 'Glyphicons Halflings';
+  font-family: 'Poppins Bold';
   font-style: normal;
   font-weight: normal;
   line-height: 1;
@@ -799,4 +826,4 @@
   content: "\e259"; }
 
 .glyphicon-menu-up:before {
-  content: "\e260"; }
+  content: "\e260"; } */

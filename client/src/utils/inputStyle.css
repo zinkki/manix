@@ -1,0 +1,23 @@
+input {
+    color: #222222;
+    border: none;
+    border-bottom: solid #aaaaaa 1px;
+    
+    padding-left: 20px;
+    position: relative;
+    background: #fff;
+    z-index: 5;
+  }
+
+textarea {
+    color: #222222;
+    border: none;
+    border-bottom: solid #aaaaaa 1px;
+    padding-left: 20px;
+    padding-top: 20px;
+    position: relative;
+    background: #fff;
+    z-index: 5;
+}
+
+

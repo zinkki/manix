@@ -5,8 +5,35 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 /*! normalize.css v5.0.0 | MIT License | github.com/necolas/normalize.css */
+
+@font-face {
+	font-family: 'Poppins Thin';
+  src: url('fonts/The-Jamsil-OTF-1-Thin.woff');
+  font-family: 'Poppins Light';
+  src: url('fonts/The-Jamsil-OTF-2-Light.woff');
+}
+@font-face {
+	font-family: 'Poppins Light';
+	src: url('fonts/The-Jamsil-OTF-2-Light.woff');
+}
+@font-face {
+	font-family: 'Poppins Regular';
+	src: url('fonts/The-Jamsil-OTF-3-Regular.woff');
+}
+@font-face {
+	font-family: 'Poppins Medium';
+	src: url('fonts/The-Jamsil-OTF-4-Medium.woff');
+}
+@font-face {
+	font-family: 'Poppins Bold';
+	src: url('fonts/The-Jamsil-OTF-5-Bold.woff');
+}
+@font-face {
+	font-family: 'Poppins ExtraBold';
+	src: url('fonts/The-Jamsil-OTF-6-ExtraBold.woff');
+}
 html {
-  font-family: sans-serif;
+  font-family: 'Poppins Medium';
   line-height: 1.15;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%; }
